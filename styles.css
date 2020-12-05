@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&family=Fredoka+One&family=Indie+Flower&display=swap');
+
+:root {
+    --blue50: #DBEAFE;
+    --blue900: #1E3A8A;
+    --blue800: #1E40AF;
+}
+
+
+
+textarea {
+    display: block;
+    width: 40%;
+    height: 17%;
+   
+    background-color: var(--blue50);
+    opacity: 90%;
+    
+    margin: auto;
+    padding: 1rem; 
+    border-radius: 0.5rem;
+    border: 5px solid var(--blue900);    
+
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2rem;
+
+}
+
+
+#btn-translate {
+    display: block;
+    
+    background-color: var(--blue50);
+
+    margin: auto;
+    padding: 1rem;    
+    border-radius: 50rem;
+    border-bottom: 3px solid var(--blue900);
+    
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#output {
+    display: block;
+    width: 40%;
+    height: 17%;
+   
+    background-color: var(--blue50);
+    opacity: 95%;
+    
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 3.2rem 1rem; 
+    border: 5px solid var(--blue900);    
+    border-radius: 0.5rem;
+    
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2rem;
+    color: black
+}
+
+
+#background {
+    background-image: url("/images/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+
+.container-text-area {
+    margin-top: 3rem;
+}
+
+.container-button{
+    margin: 2.5rem 0rem;
+}
+
+.header{
+    background-color: var(--blue800);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-top: 0.1rem;
+    border-bottom: 5px solid var(--blue900);   
+    
+}
+
+.header-text{
+    text-align: center;
+    
+}
+
+.footer{
+    background-color: var(--blue800);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-top: 5px solid var(--blue900);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+.footer-text{
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 1%;
+    font-family: 'Baloo 2', cursive;
+    padding: 0rem 1rem;
+}
+
+.footer-heading {
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5%;
+}
