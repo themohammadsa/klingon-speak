@@ -1,16 +1,15 @@
 # Getting Started
 
-This is a web-app that translates your input to minion language. 
+This is a web-app that translates your input to Klingon language. 
 
 ---
 
 ## Description 
 
-Who doesn't love minions? The gibberish that Gru's minions in 'Despicable Me' speak is an actual language. Use this tool to convert your english sentence to minion language!
-Give it a try! It's really fun. 
+The Klingon language is the constructed language spoken by the fictional Klingons in the Star Trek universe. 
 
 Here's the link to website:
-https://the-minion-translator.netlify.app/
+https://the-klingon-translator.netlify.app/
 
 ---
 
