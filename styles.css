@@ -75,8 +75,6 @@ textarea {
 
 body {
     margin: 0;
-    padding: 0;
-    border: 0;
     font-family: 'Berkshire Swash', cursive;
     color: white;
 }
@@ -109,9 +107,7 @@ body {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-top: 5px solid var(--blue900);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding-bottom: 0.1rem;
     text-align: center;
 }
 
